@@ -2,6 +2,9 @@
 
 Basic rss reader that displays comics and articles in columns.
 Requires python.
+To use run `python paperServer.py` (Included as a .bat file called **Run.bat**).
+This will start a server that loads and parses all the rss feeds and turns them into a local website.
+Navigate to the url shown in python script and there you go.
 
 To add comics or articles put the info into **comics.json** with this format:
 
