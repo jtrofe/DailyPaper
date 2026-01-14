@@ -4,6 +4,7 @@ Basic rss reader that displays comics and articles in columns.
 Requires python.
 
 To add comics or articles put the info into **comics.json** with this format:
+
 `
 {
 	"comic_feeds":[
@@ -22,6 +23,7 @@ Fixes for individual feeds can be made in **feedLoader.py** inside the **ComicsL
 
 For example, the ComicsLoader class expects the xml to have a div containing an image, and it takes the source from that image.
 The feed for Swan Boy is not formatted that way so it has to get the image source differently.
+
 `
 if len(src) == 0:
     # This is for Swan Boy specifically
